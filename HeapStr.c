@@ -24,7 +24,7 @@ int isFull(struct Stack *stack)
 }
 //To check if stack is empty
 int isEmpty(struct Stack *stack)
-{
+{ 
 	return(stack->top==-1);
 }
 //Function to add an item to stack
